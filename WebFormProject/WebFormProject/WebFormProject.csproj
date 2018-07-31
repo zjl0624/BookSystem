@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9214801-A553-4493-87DE-683761B7B998}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WebFormProject</RootNamespace>
+    <AssemblyName>WebFormProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Downloads\mysql-connector-net-6\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF5">
+      <HintPath>..\..\..\..\Downloads\mysql-connector-net-6\v4.5\MySql.Data.Entity.EF5.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>..\..\..\..\Downloads\mysql-connector-net-6\v4.5\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>..\..\..\..\Downloads\mysql-connector-net-6\v4.5\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="BaseLearn.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BooksSystem\Action\UessInfoAction.aspx" />
+    <Content Include="BooksSystem\Action\LoginAction.aspx" />
+    <Content Include="BooksSystem\Action\RegisterAction.aspx" />
+    <Content Include="Test.aspx" />
+    <Content Include="BooksSystem\Action\UpLoadImageAction.aspx" />
+    <Content Include="BooksSystem\Action\BookListAction.aspx" />
+    <Content Include="BooksSystem\Action\BorrowlistAction.aspx" />
+    <Content Include="BooksSystem\Action\BorrowAction.aspx" />
+    <Content Include="wx\Verify.aspx" />
+    <Content Include="BooksSystem\Action\ReturnBookAction.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaseLearn.aspx.cs">
+      <DependentUpon>BaseLearn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaseLearn.aspx.designer.cs">
+      <DependentUpon>BaseLearn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Utils\DBConnection.cs" />
+    <Compile Include="BooksSystem\Bean\UserModel.cs" />
+    <Compile Include="BooksSystem\Dao\UserInfoDao.cs" />
+    <Compile Include="BooksSystem\Service\UsersInfoService.cs" />
+    <Compile Include="BooksSystem\Action\UessInfoAction.aspx.cs">
+      <DependentUpon>UessInfoAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Action\UessInfoAction.aspx.designer.cs">
+      <DependentUpon>UessInfoAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Utils\JsonSerialize.cs" />
+    <Compile Include="BooksSystem\Action\LoginAction.aspx.cs">
+      <DependentUpon>LoginAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Action\LoginAction.aspx.designer.cs">
+      <DependentUpon>LoginAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Service\LoginService.cs" />
+    <Compile Include="BooksSystem\Dao\LoginDao.cs" />
+    <Compile Include="BooksSystem\Utils\SqlParams.cs" />
+    <Compile Include="BooksSystem\Action\RegisterAction.aspx.cs">
+      <DependentUpon>RegisterAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Action\RegisterAction.aspx.designer.cs">
+      <DependentUpon>RegisterAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Service\RegisterService.cs" />
+    <Compile Include="BooksSystem\Dao\RegisterDao.cs" />
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Dao\BaseDao.cs" />
+    <Compile Include="BooksSystem\Action\UpLoadImageAction.aspx.cs">
+      <DependentUpon>UpLoadImageAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Action\UpLoadImageAction.aspx.designer.cs">
+      <DependentUpon>UpLoadImageAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Service\UpLoadImageService.cs" />
+    <Compile Include="BooksSystem\Dao\UpLoadImageDao.cs" />
+    <Compile Include="BooksSystem\Utils\StaticSettings.cs" />
+    <Compile Include="BooksSystem\Action\BookListAction.aspx.cs">
+      <DependentUpon>BookListAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Action\BookListAction.aspx.designer.cs">
+      <DependentUpon>BookListAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Service\BookListService.cs" />
+    <Compile Include="BooksSystem\Dao\BookListDao.cs" />
+    <Compile Include="BooksSystem\Action\BorrowlistAction.aspx.cs">
+      <DependentUpon>BorrowlistAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Action\BorrowlistAction.aspx.designer.cs">
+      <DependentUpon>BorrowlistAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Service\BorrowlistService.cs" />
+    <Compile Include="BooksSystem\Dao\BorrowlistDao.cs" />
+    <Compile Include="BooksSystem\Action\BorrowAction.aspx.cs">
+      <DependentUpon>BorrowAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Action\BorrowAction.aspx.designer.cs">
+      <DependentUpon>BorrowAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Service\BorrowService.cs" />
+    <Compile Include="BooksSystem\Dao\BorrowDao.cs" />
+    <Compile Include="wx\Verify.aspx.cs">
+      <DependentUpon>Verify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wx\Verify.aspx.designer.cs">
+      <DependentUpon>Verify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Dao\ReturnBookDao.cs" />
+    <Compile Include="BooksSystem\Service\ReturnBookService.cs" />
+    <Compile Include="BooksSystem\Action\ReturnBookAction.aspx.cs">
+      <DependentUpon>ReturnBookAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksSystem\Action\ReturnBookAction.aspx.designer.cs">
+      <DependentUpon>ReturnBookAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wx\WXStatic.cs" />
+    <Compile Include="wx\NetRequest.cs" />
+    <Compile Include="wx\GetAccessToken\AccessTokenAction.cs" />
+    <Compile Include="wx\CreateMenu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BooksSystem\" />
+    <Folder Include="BooksSystem\Bean\" />
+    <Folder Include="BooksSystem\Dao\" />
+    <Folder Include="BooksSystem\Service\" />
+    <Folder Include="BooksSystem\Action\" />
+    <Folder Include="BooksSystem\Utils\" />
+    <Folder Include="wx\" />
+    <Folder Include="wx\GetAccessToken\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="9090" Address="192.168.10.14" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

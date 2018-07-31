@@ -1,0 +1,5 @@
+/Users/Myzjl/Desktop/net/ConsoleTestProject/ConsoleTestProject/bin/Release/netcoreapp1.0/ConsoleTestProject.dll
+/Users/Myzjl/Desktop/net/ConsoleTestProject/ConsoleTestProject/bin/Release/netcoreapp1.0/ConsoleTestProject.pdb
+/Users/Myzjl/Desktop/net/ConsoleTestProject/ConsoleTestProject/obj/Release/netcoreapp1.0/ConsoleTestProject.AssemblyInfo.cs
+/Users/Myzjl/Desktop/net/ConsoleTestProject/ConsoleTestProject/obj/Release/netcoreapp1.0/ConsoleTestProject.dll
+/Users/Myzjl/Desktop/net/ConsoleTestProject/ConsoleTestProject/obj/Release/netcoreapp1.0/ConsoleTestProject.pdb

@@ -1,0 +1,5 @@
+/Users/Myzjl/Desktop/net/Base/Base/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Myzjl/Desktop/net/Base/Base/bin/Debug/Base.exe.mdb
+/Users/Myzjl/Desktop/net/Base/Base/bin/Debug/Base.exe
+/Users/Myzjl/Desktop/net/Base/Base/obj/x86/Debug/Base.exe
+/Users/Myzjl/Desktop/net/Base/Base/obj/x86/Debug/Base.exe.mdb

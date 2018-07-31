@@ -1,0 +1,11 @@
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/BaseLearn.aspx
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/WebFormProject.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/WebFormProject.pdb
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/MySql.Data.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/MySql.Data.Entity.EF5.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/MySql.Data.Entity.EF6.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/MySql.Web.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/obj/Debug/WebFormProject.csprojResolveAssemblyReference.cache
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/obj/Debug/WebFormProject.csproj.CoreCompileInputs.cache
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/obj/Debug/WebFormProject.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/obj/Debug/WebFormProject.pdb

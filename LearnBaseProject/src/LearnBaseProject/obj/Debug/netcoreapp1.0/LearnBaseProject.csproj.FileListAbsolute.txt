@@ -1,0 +1,6 @@
+/Users/Myzjl/Desktop/net/LearnBaseProject/src/LearnBaseProject/bin/Debug/netcoreapp1.0/LearnBaseProject.dll
+/Users/Myzjl/Desktop/net/LearnBaseProject/src/LearnBaseProject/bin/Debug/netcoreapp1.0/LearnBaseProject.pdb
+/Users/Myzjl/Desktop/net/LearnBaseProject/src/LearnBaseProject/obj/Debug/netcoreapp1.0/LearnBaseProject.csprojResolveAssemblyReference.cache
+/Users/Myzjl/Desktop/net/LearnBaseProject/src/LearnBaseProject/obj/Debug/netcoreapp1.0/LearnBaseProject.AssemblyInfo.cs
+/Users/Myzjl/Desktop/net/LearnBaseProject/src/LearnBaseProject/obj/Debug/netcoreapp1.0/LearnBaseProject.dll
+/Users/Myzjl/Desktop/net/LearnBaseProject/src/LearnBaseProject/obj/Debug/netcoreapp1.0/LearnBaseProject.pdb

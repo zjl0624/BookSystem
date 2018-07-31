@@ -1,0 +1,8 @@
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/BaseLearn.aspx
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/WebFormProject.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/obj/Release/WebFormProject.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/MySql.Data.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/MySql.Data.Entity.EF5.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/MySql.Data.Entity.EF6.dll
+/Users/Myzjl/Desktop/net/WebFormProject/WebFormProject/bin/MySql.Web.dll
